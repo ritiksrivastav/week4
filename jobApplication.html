@@ -1,0 +1,264 @@
+<html>
+<head>
+	<title>Online Job Application Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<h1 align="center">The Naomi Store - Careers</h1>
+	<form method="POST" action="./success.html">
+		<div id="personal-details">
+		<h2 align="center">Personal Details</h2>
+			<table width="100%">
+				<tr>
+					<td>First Name</td>
+					<td>
+						<input type="text" placeholder="First Name" size="25" required="true" autocomplete="off"><span class="req">*</span>
+					</td>
+					<td>Middle Name</td>
+					<td>
+						<input type="text" size="25" autocomplete="off">
+					</td>
+					<td>Last Name</td>
+					<td>
+						<input type="text" size="25" autocomplete="off">
+					</td>
+				</tr>
+				<tr>
+					<td>Father's Name</td>
+					<td>
+						<input type="text" autocomplete="off" placeholder="Father's Name" size="25" required="true"><span class="req">*</span>
+					</td>
+				</tr>
+				<tr>
+					<td>Date of Birth</td>
+					<td>
+						<input type="date" autocomplete="off" name="date"required="true"><span class="req">*</span>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="1">Select Gender</td>
+					<td>
+                        <select name="gender"required="true"><span class="req">*</span>
+                            <option value="Select">Choose</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                            <option value="other">Others</option>
+                        </select>
+					</td>
+				</tr>
+				<tr>
+					<td>Mobile Number</td>
+					<td>
+						<input type="tel" placeholder="Enter Mobile Number"  autocomplete="off" size="25"required="true"><span class="req">*</span>
+					</td>
+					<td>Email Id</td>
+					<td>
+						<input type="text" placeholder="Enter Id" size="25"required="true"  autocomplete="off"><span class="req">*</span>
+					</td>
+				</tr>
+				<tr>
+			</table>
+            <p>All the fields marked with <span class="req">*</span> are required.</p>
+		</div>
+		<!-- Address Details -->
+		<div id="address-details">
+		<h2>Address Details</h2>
+			<h3>Present Address</h3>
+			<table>				
+				<tr>
+					<td>State</td>
+					<td>
+						<input type="text" size="25"  autocomplete="off"><span class="req">*</span>
+					</td>
+				</tr>
+				<tr>
+					<td>City</td>
+					<td>
+						<select>
+							<option>Select Your City</option>
+							<option>City1</option>
+							<option>City2</option>
+							<option>City3</option>
+							<option>City4</option>
+							<option>City5</option>
+							<option>City6</option>
+							<option>City7</option>
+							<option>City8</option>
+							<option>City9</option>
+							<option>City10</option>
+						</select>
+					</td>
+				</tr>
+					<td>Address:</td>
+					<td>
+						<input type="text" size="25"><span class="req">*</span>
+					</td>
+				</tr>
+				<tr>
+					<td>Pin Code</td>
+					<td>
+						<input type="phone" size="25"><span class="req">*</span>
+					</td>
+				</tr>
+			</table>
+            <p>All the fields marked with <span class="req">*</span> are required.</p>
+			<br><br>
+		</div>
+		</div>		
+		<!-- Educational Qualification -->
+		<div id="educational-qualification">
+		<h2> Educational Qualification</h2>
+			<table width="80%" align="center"> 
+				<tr>
+					<td>Sl</td>
+					<td>Qualification</td>
+					<td>University/School</td>
+					<td>Year of Passing</td>
+					<td>Marks(%)/GPA</td>
+				</tr>
+				<tr>
+					<td>1</td>
+					<td>
+						<input type="text" size="25">
+					</td>
+					<td>
+						<input type="text" size="25">
+					</td>
+					<td>
+						<input type="text" size="25">
+					</td>
+					<td>
+						<input type="text" size="25">
+					</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>
+						<input type="text" size="25">
+					</td>
+					<td>
+						<input type="text" size="25">
+					</td>
+					<td>
+						<input type="text" size="25">
+					</td>
+					<td>
+						<input type="text" size="25">
+					</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>
+						<input type="text" size="25">
+					</td>
+					<td>
+						<input type="text" size="25">
+					</td>
+					<td>
+						<input type="text" size="25">
+					</td>
+					<td>
+						<input type="text" size="25">
+					</td>
+				</tr>
+			</table>
+			<label for="myfile" style="margin-left: 10px;">Upload your Resume</label>
+			<input type="file" id="myfile" name="myfile" width="50px" style="border-radius: 0; margin-left: 10px;">
+		</div>
+		
+		<!-- Work Experience -->
+		<div id="work-experience">
+		<h2>Work Experience - If Any</h2>
+			<table width="80%" align="center">
+				<tr>
+					<td>Sl No</td>
+					<td>Company Address</td>
+					<td>Work / Role</td>
+					<td>Duration (form - to)</td>
+				</tr>
+				<tr>
+					<td>1</td>
+					<td>
+						<input type="text" size="25">
+					</td>
+					<td>
+						<input type="text" size="25">
+					</td>
+					<td>
+						<input type="date" size="25">
+					</td>
+					<td>
+						<input type="date" size="25">
+					</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>
+						<input type="text" size="25">
+					</td>
+					<td>
+						<input type="text" size="25">
+					</td>
+					<td>
+						<input type="date" size="25">
+					</td>
+					<td>
+						<input type="date" size="25">
+					</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>
+						<input type="text" size="25">
+					</td>
+					<td>
+						<input type="text" size="25">
+					</td>
+					<td>
+						<input type="date" size="25">
+					</td>
+					<td>
+						<input type="date" size="25">
+					</td>
+				</tr>
+			</table>
+		</div>
+		
+		<!-- Other Details -->
+		<div id="other-details">
+		<h2>Other Details</h2>
+			<table width="40%" align="center">
+				<tr>
+					<td>Skills: <br><br>
+                        <div class="locations">
+                            <div>
+                                <label>HTML</label> 
+                                <input type="checkbox" name="location"><br>    
+                            </div>
+                            <div>
+                                <label>CSS</label>
+                                <input type="checkbox" name="location"><br>
+                            </div>
+                            <div>
+                                <label>C++</label>
+                                <input type="checkbox" name="location"><br>
+                            </div>
+                            <div>
+                                <label>Java</label>
+                                <input type="checkbox" name="location"><br>
+                            </div>
+                        </div>
+					</td>
+				</tr>
+                <tr class="subm">
+                    <td><a href="./success.html"><button class="submit">Submit</button></a></td>
+                    <td><button class="reset"><input type="button" class="btn" value="RESET"></button></td>
+                </tr>
+			</table>
+		</div>
+	</form>
+    <p class="Footer">© The Naomi Store 2021</p>
+    <p class="Footer">Created by Ritik Srivastav</p>	
+</body>
+
+</html>

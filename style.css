@@ -1,0 +1,75 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #FFFBBE;
+    color:#6B6B6B;
+    margin: 0;
+}
+.req{
+    margin-left: 5px;
+    color: #FF0000;
+}
+#personal-details{
+    margin: 10px;
+}
+p{
+    margin-left: 10px;
+}
+h1{
+    text-decoration: underline;
+    text-decoration-thickness: 0.2px;
+}
+h2{
+    background-color: #D9D483;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+td{
+    padding: 7px;
+}
+input{
+    border-radius: 10px;
+    border: none;   
+}
+.locations{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+input:focus{
+    outline: none;
+    border: 1px solid black;
+}
+.sumb{
+    margin: 0;
+    padding: 0;
+}
+.submit{
+    margin-right: 0px;
+    background-color: forestgreen;
+}
+.reset{
+    margin-left: 0px;
+    margin: auto;
+    background-color: #FF0000;
+}
+.button{
+    background-color: forestgreen;
+    color:#fff;
+    border: none;
+    padding: 7px
+}
+.btn{
+    background-color: #FF0000;
+}
+.button:hover {
+    cursor: pointer;
+    box-shadow: 5px 5px 5px red;
+}
+#address-details{
+    margin: 10px;
+}
+.Footer{
+    text-align: center;
+}

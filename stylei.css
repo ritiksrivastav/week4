@@ -1,0 +1,19 @@
+body{
+    background-color: #52006a;
+    background-image: url("https://www.transparenttextures.com/patterns/crisp-paper-ruffles.png");
+}
+.main{
+    background-color: #A8D8EA;
+    background-image: url("https://www.transparenttextures.com/patterns/fake-luxury.png");
+    margin: 100px auto;
+    width: 80%;
+    height: 600px;
+}
+h2{
+    font-family: "Times New Roman", Times, serif;
+    margin: 60px 400px;
+    color: #002366;
+    text-decoration: underline;
+    text-decoration-style: double;
+    text-decoration-thickness: 0.3px;
+}
